@@ -1,0 +1,31 @@
+#navbar {
+    min-height: 50px;
+    width: 100%;
+    > .flexbox {
+        background: #37474F;
+        border-top: 5px solid #BE1622;
+        > .flexbox {
+            width: 100%;
+            max-width: 750px;
+            margin: auto;
+            justify-content: space-around;
+        }
+    }
+    
+    color: #B5C7D0;
+    div > b {
+        color: #F9FAFA;
+    }
+    div {
+        position: relative;
+        > img {
+            max-height: 20px;
+            max-width: 20px;
+            margin: 0 0 0 5px;
+            position: absolute;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+    }
+}
